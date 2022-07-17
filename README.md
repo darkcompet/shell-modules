@@ -12,9 +12,10 @@ For js, nodejs,...
 	git init
 
 	# Create modules folder
-	mkdir tool; mkdir tool/compet; cd tool/compet;
+	mkdir tool; mkdir tool/compet;
 
 	# Add git submodules
+	cd tool/compet;
 	git submodule add https://github.com/darkcompet/shell-ubuntu.git
 	```
 
